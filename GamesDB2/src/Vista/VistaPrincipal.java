@@ -143,7 +143,7 @@ public class VistaPrincipal extends JPanel {
 		//Implementamos el iterator
 		Iterator<String> it= usuarios.getusuarios().iterator();
 		while(it.hasNext()){
-			comboUsu.addItem((String)it.next()); //Mientas exista un "siguiente" el iterator nos devuelve los usuarios
+			comboUsu.addItem((String)it.next()); //Mientras exista un "siguiente" el iterator nos devuelve los usuarios
 		}
 	}
 }

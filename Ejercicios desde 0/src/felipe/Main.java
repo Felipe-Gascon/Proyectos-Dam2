@@ -17,7 +17,7 @@ public class Main {
 		c=Entrada.entero();
 		
 		// calcular determinante
-		d=((b*b)-4*a*c);
+		d=(Math.pow(b, 2)-4*a*c);
 		if(d<0)
 			System.out.println("No existen soluciones reales");
 		else
